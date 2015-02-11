@@ -6,22 +6,7 @@ App.Router.map(function() {
 });
 
 
-$(document).ready(function(){
-  infoListClick();
-});
 
-
-$('#meetMomo').on('click', function(){
-  $('#tagLine').append()
-
-});
-
-function infoListClick(){
-  $('#aboutList li').on('click', '.dob', function(){
-    console.log('clicked')
-  })
-
-}
 
 
 

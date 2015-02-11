@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('../img/momo04.jpg') no-repeat;
+  background-image: url('../img/momo04.jpg');
   height: 70%;
   background-size: cover;
 }
