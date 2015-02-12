@@ -1,10 +1,18 @@
+a:hover,
+a:focus,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+
 .navbar.navbar-inverse {
   border-radius: 0;
 }
 
 body {
-  background-image: url('../img/momo04.jpg');
-  height: 70%;
+  background-image: url('img/momo04.jpg');
   background-size: cover;
 }
 
@@ -37,21 +45,40 @@ h2 {
   line-height: 1.5l
 }
 
-#aboutList li {
+#aboutLists li {
   display: inline;
   text-align: center;
-  border-radius: 4px;
-  padding: 10px 14px;
-  font-size: 3em;
+  font-size: 14px;
   color: #000;
   margin: 0 10px;
 }
 
-#aboutList li:hover {
-  border: 1px solid #2aa483;
+#aboutLists li:hover {
+  color: rgba(42,164,142,0.9);
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+
+#aboutLists li:active {
   color: rgba(42,164,142,0.9);
 }
 
 #photo {
   width: 30%;
+}
+
+.about-list-wrap {
+  color: #E2E2E2;
+  margin-top: 2em;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+  box-shadow:  0px 10px 15px rgba(0, 0, 0, 0.2);
+  /*background: rgba(255,255,255,0.6)*/
+}
+
+#aboutPhoto {
+  width: 268px;
+  position: relative;
+  left: -7px;
+  top: 7px;
 }
